@@ -26,5 +26,5 @@ Dự án được triển khai trong khuôn khổ **Olympic Tin học Sinh viên
 
 ## 👩‍💻 Công nghệ
 - **Thu thập dữ liệu**: Overpass API, Wikidata, Python (rdflib, geopandas).  
-- **Backend**: .  
-- **Frontend Map**: ReactJS + Leaflet/Mapbox.  
+- **Backend**: Nest.js
+- **Frontend Map**: ReactJS + Leaflet + Vite + TypeScript.  
