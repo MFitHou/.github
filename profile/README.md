@@ -29,14 +29,14 @@ Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ
                         ┌──────────────────┐
                         │  Fuseki Storage  │
                         │ ________________ │
-                        │ 03.77.246.176    │
+                        │ 103.77.246.176    │
                         │ :3030/           │
                         │ • RDF Database   │
                         │ • SPARQL Query   │
                         └──────────────────┘
 ```
 
-**🗄️ Lưu trữ dữ liệu**: Dữ liệu sau khi thu thập và xử lý sẽ được lưu trữ tại **Apache Jena Fuseki Server** với địa chỉ `03.77.246.176:3030/`. Hệ thống thực hiện truy xuất dữ liệu từ Fuseki thông qua SPARQL queries để hiển thị lên bản đồ tương tác.
+**🗄️ Lưu trữ dữ liệu**: Dữ liệu sau khi thu thập và xử lý sẽ được lưu trữ tại **Apache Jena Fuseki Server** với địa chỉ `103.77.246.176:3030/`. Hệ thống thực hiện truy xuất dữ liệu từ Fuseki thông qua SPARQL queries để hiển thị lên bản đồ tương tác.
 
 ## 🔧 Các thành phần chính
 
@@ -50,7 +50,7 @@ Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ
 
 ### ⚙️ [open_data_backend](https://github.com/MFitHou/open_data_backend) - API & SPARQL Service
 - 🚀 **REST API**: NestJS framework với TypeScript
-- 🔗 **SPARQL Endpoint**: Tích hợp Apache Jena Fuseki tại `03.77.246.176:3030/`
+- 🔗 **SPARQL Endpoint**: Tích hợp Apache Jena Fuseki tại `103.77.246.176:3030/`
 - 🗄️ **Data Storage**: Lưu trữ và truy xuất dữ liệu RDF từ Fuseki server
 - 🌐 **Data Management**: Quản lý và phục vụ dữ liệu RDF cho frontend
 - 🔌 **Integration**: Cung cấp API cầu nối giữa Fuseki và ứng dụng bản đồ
@@ -91,7 +91,7 @@ cd open_data_backend
 npm install
 npm run start:dev
 # Server chạy tại: http://localhost:3000
-# Kết nối với Fuseki server: 03.77.246.176:3030/
+# Kết nối với Fuseki server: 103.77.246.176:3030/
 ```
 
 ### 3️⃣ Chạy Frontend (React + Vite)
@@ -127,7 +127,7 @@ jupyter notebook
 
 ### Backend
 - 🚀 **NestJS**: Modern Node.js framework
-- 📊 **Apache Jena Fuseki**: RDF database và SPARQL endpoint (`03.77.246.176:3030/`)
+- 📊 **Apache Jena Fuseki**: RDF database và SPARQL endpoint (`103.77.246.176:3030/`)
 - 🔍 **SPARQL**: Query language cho RDF data từ Fuseki server
 - 📡 **REST API**: Chuẩn RESTful cho data access và integration
 
@@ -144,11 +144,11 @@ jupyter notebook
 |-------|----------|---------|---------|
 | 🌍 **OpenStreetMap** | Dữ liệu địa lý, POI | GeoJSON → RDF | Fuseki Server |
 | 🔗 **Wikidata** | Metadata, identifiers | SPARQL → RDF | Fuseki Server |
-| 📊 **Linked Data** | Semantic relationships | RDF/Turtle | `03.77.246.176:3030/` |
+| 📊 **Linked Data** | Semantic relationships | RDF/Turtle | `103.77.246.176:3030/` |
 
 ### Quy trình dữ liệu
 ```
-Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (03.77.246.176:3030/) → API → Bản đồ
+Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (103.77.246.176:3030/) → API → Bản đồ
 ```
 
 ### Loại dữ liệu hiện có
