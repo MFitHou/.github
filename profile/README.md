@@ -77,7 +77,7 @@ graph LR
 
 🔍 **Thu thập dữ liệu**: Overpass API & Wikidata SPARQL  
 📊 **Xử lý**: Jupyter Notebooks với Python  
-🔄 **Chuyển đổi**: GeoJSON → RDF/Turtle (.ttl)  
+🔄 **Chuyển đổi**: GeoJSON → RDF/Turtle  
 📈 **Chuẩn hóa**: Enrichment metadata
 
 </td>
@@ -152,7 +152,7 @@ Tích hợp AI-powered search với độ chính xác cao
 ---
 
 ### 📍 Dịch vụ lân cận  
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Round%20Pushpin.png" alt="location" width="60" height="60" />
+<img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Round%20pushpin/3D/round_pushpin_3d.png" alt="location" width="60" height="60" />
 
 **Smart Location Services**  
 Tìm ATM, bệnh viện, trạm xe bus gần bạn (realtime)
@@ -160,7 +160,7 @@ Tìm ATM, bệnh viện, trạm xe bus gần bạn (realtime)
 ---
 
 ### 🌐 RESTful API
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Globe%20with%20Meridians.png" alt="api" width="60" height="60" />
+<img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Globe%20with%20meridians/3D/globe_with_meridians_3d.png" alt="api" width="60" height="60" />
 
 **Developer-Friendly**  
 SPARQL endpoint mạnh mẽ cho developers
