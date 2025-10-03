@@ -155,7 +155,7 @@ Tích hợp AI-powered search với độ chính xác cao
 <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Round%20pushpin/3D/round_pushpin_3d.png" alt="location" width="60" height="60" />
 
 **Smart Location Services**  
-Tìm ATM, bệnh viện, trạm xe bus gần bạn (realtime)
+Tìm ATM, bệnh viện, trạm xe gần bạn (realtime)
 
 ---
 
