@@ -16,8 +16,6 @@
 [![SPARQL](https://img.shields.io/badge/SPARQL-1.1-E74C3C?style=for-the-badge&logo=apache&logoColor=white)](https://www.w3.org/TR/sparql11-query/)
 [![GitHub stars](https://img.shields.io/github/stars/MFitHou?style=for-the-badge&logo=github&color=yellow)](https://github.com/MFitHou)
 
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/0b335028-1d3d-4ee5-b5b3-a373d499be7e" width="800">
-
 </div>
 
 <div align="center">
@@ -37,8 +35,6 @@ Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ
 <div align="center">
 
 ## 🏗️ Kiến trúc hệ thống
-
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/7d484dc9-a876-4d24-b4f2-88b0f99ec32d" width="50">
 
 </div>
 
@@ -80,9 +76,9 @@ graph LR
 <img src="https://skillicons.dev/icons?i=python,jupyter" />
 
 🔍 **Thu thập dữ liệu**: Overpass API & Wikidata SPARQL  
-📊 **Xử lý dữ liệu**: Jupyter Notebooks với Python  
+📊 **Xử lý**: Jupyter Notebooks với Python  
 🔄 **Chuyển đổi**: GeoJSON → RDF/Turtle (.ttl)  
-📈 **Chuẩn hóa**: Enrichment metadata từ nhiều nguồn  
+📈 **Chuẩn hóa**: Enrichment metadata
 
 </td>
 <td width="33%" align="center">
@@ -148,7 +144,7 @@ graph LR
 <td align="center" width="50%">
 
 ### 🔍 Tìm kiếm thông minh
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/d08f5cc2-8c4a-4f20-a45c-0a5b5e8b7c68" width="60">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Left.png" alt="search" width="60" height="60" />
 
 **SPARQL & Wikidata Integration**  
 Tích hợp AI-powered search với độ chính xác cao
@@ -156,15 +152,15 @@ Tích hợp AI-powered search với độ chính xác cao
 ---
 
 ### 📍 Dịch vụ lân cận  
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/b3ef3a17-c5a8-4e9f-8c29-4e8c8b5c2a6f" width="60">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Round%20Pushpin.png" alt="location" width="60" height="60" />
 
 **Smart Location Services**  
-Tìm ATM, bệnh viện, trạm xe bus gần bạn trong thời gian thực
+Tìm ATM, bệnh viện, trạm xe bus gần bạn (realtime)
 
 ---
 
 ### 🌐 RESTful API
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/8c6e4d4c-0b8a-4f0e-8c29-4e8c8b5c2a6f" width="60">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Globe%20with%20Meridians.png" alt="api" width="60" height="60" />
 
 **Developer-Friendly**  
 SPARQL endpoint mạnh mẽ cho developers
@@ -173,7 +169,7 @@ SPARQL endpoint mạnh mẽ cho developers
 <td align="center" width="50%">
 
 ### 🗺️ Bản đồ tương tác
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/2c4c5a67-4d24-4f2e-8c29-4e8c8b5c2a6f" width="60">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/World%20Map.png" alt="map" width="60" height="60" />
 
 **Interactive Mapping**  
 Auto-highlighting và real-time focus
@@ -181,7 +177,7 @@ Auto-highlighting và real-time focus
 ---
 
 ### ⬇️ Export dữ liệu
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/7d484dc9-a876-4d24-b4f2-88b0f99ec32d" width="60">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Inbox%20Tray.png" alt="export" width="60" height="60" />
 
 **Multi-format Export**  
 XML và RDF/XML tuân theo chuẩn Linked Data
@@ -189,7 +185,7 @@ XML và RDF/XML tuân theo chuẩn Linked Data
 ---
 
 ### 📱 Responsive Design
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/b48c1b47-4c8a-4f0e-8c29-4e8c8b5c2a6f" width="60">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" alt="mobile" width="60" height="60" />
 
 **Cross-Platform**  
 Tương thích hoàn hảo mobile và desktop
@@ -303,10 +299,10 @@ Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (103.7
 <tr>
 <td align="center" width="33%">
 
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="100">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="developer" width="100" height="100" />
 
 ### 👨‍💻 **Vũ Hoàng Anh**
-**� Data Engineer**
+**📊 Data Engineer**
 
 <img src="https://skillicons.dev/icons?i=python,jupyter,docker" />
 
@@ -314,14 +310,14 @@ Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (103.7
 🔧 API Design & Integration  
 � Data Processing & ETL  
 
-<img src="https://github-readme-stats.vercel.app/api?username=vuhoanganhdev&show_icons=true&theme=radical&hide_border=true" width="280">
+<img src="https://github-readme-stats.vercel.app/api?username=VuHoangAnh2110&show_icons=true&theme=radical&hide_border=true" width="280">
 
 </td>
 <td align="center" width="33%">
 
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/fe4eb68e-e2d1-4d48-b8b8-0e27a4b2e0f7" width="100">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Woman%20Technologist.png" alt="developer" width="100" height="100" />
 
-### �‍💻 **Nguyễn Hồng Ánh**  
+### 👩‍💻 **Nguyễn Hồng Ánh**  
 **🎨 Frontend Developer**
 
 <img src="https://skillicons.dev/icons?i=react,typescript,css" />
@@ -330,12 +326,12 @@ Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (103.7
 ✨ Modern Web Development  
 🎨 UI/UX Design Specialist  
 
-<img src="https://github-readme-stats.vercel.app/api?username=nguyenhonganh&show_icons=true&theme=radical&hide_border=true" width="280">
+<img src="https://github-readme-stats.vercel.app/api?username=honganhss&show_icons=true&theme=radical&hide_border=true" width="280">
 
 </td>
 <td align="center" width="33%">
 
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/78f0025d-b85a-4a2d-8f3a-83fb2b4b3e9d" width="100">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="developer" width="100" height="100" />
 
 ### 👨‍💻 **Tống Tâm Xuân**
 **🚀 Backend Architect**
@@ -346,7 +342,7 @@ Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (103.7
 🏗️ System Architecture  
 ⚡ Performance Optimization  
 
-<img src="https://github-readme-stats.vercel.app/api?username=tongtamxuan&show_icons=true&theme=radical&hide_border=true" width="280">
+<img src="https://github-readme-stats.vercel.app/api?username=VNgKhanh04&show_icons=true&theme=radical&hide_border=true" width="280">
 
 </td>
 </tr>
@@ -385,7 +381,7 @@ Dự án này được phân phối dưới [GNU General Public License v3.0](LI
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="800">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="rocket" width="100" height="100" />
 
 </div>
 
@@ -393,7 +389,7 @@ Dự án này được phân phối dưới [GNU General Public License v3.0](LI
 
 ## 🎯 Hãy ủng hộ dự án của chúng tôi!
 
-<img src="https://github.com/MFitHou/MFitHou/assets/74038190/0b335028-1d3d-4ee5-b5b3-a373d499be7e" width="50">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" alt="star" width="50" height="50" />
 
 **⭐ Nếu dự án hữu ích, hãy cho chúng tôi một star! ⭐**
 
