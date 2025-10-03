@@ -29,7 +29,7 @@ Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ
                         ┌──────────────────┐
                         │  Fuseki Storage  │
                         │ ________________ │
-                        │ 103.77.246.176    │
+                        │ 103.77.246.176   │
                         │ :3030/           │
                         │ • RDF Database   │
                         │ • SPARQL Query   │
