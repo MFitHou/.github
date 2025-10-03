@@ -1,13 +1,14 @@
 # 🌍 MFitHou - Linked Open Data Platform
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![OLP PMNM 2025](https://img.shields.io/badge/OLP%20PMNM-2025-green.svg)](https://olp.edu.vn)
+[![Hackathon HOU](https://img.shields.io/badge/Hackathon-HOU%20IT-green.svg)](https://hou.edu.vn)
+[![OLP PMNM 2025](https://img.shields.io/badge/OLP%20PMNM-2025-blue.svg)](https://vfossa.vn/tin-tuc/gioi-thieu-chu-de-cuoc-thi-phan-mem-nguon-mo-olp-2025-746.html)
 [![Open Data](https://img.shields.io/badge/Open%20Data-LOD-orange.svg)](https://www.w3.org/DesignIssues/LinkedData.html)
 [![SPARQL](https://img.shields.io/badge/SPARQL-1.1-red.svg)](https://www.w3.org/TR/sparql11-query/)
 
 > **Open Data for Digital Transformation** 🚀
 
-**MFitHou** là nền tảng **dữ liệu mở liên kết (Linked Open Data)** phục vụ nghiên cứu và chuyển đổi số, được phát triển trong khuôn khổ **Olympic Tin học Sinh viên Việt Nam – Phần mềm nguồn mở (OLP PMNM 2025)**.
+**MFitHou** là nền tảng **dữ liệu mở liên kết (Linked Open Data)** phục vụ nghiên cứu và chuyển đổi số, được phát triển để tham gia **Hackathon Phần mềm Tự do Nguồn mở** cấp **Khoa Công nghệ Thông tin - Trường Đại học Mở Hà Nội** và tương lai là **Olympic Tin học Sinh viên Việt Nam – Phần mềm nguồn mở (OLP PMNM 2025)**.
 
 ## 📋 Tổng quan dự án
 
@@ -16,14 +17,26 @@ Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ
 ## 🏗️ Kiến trúc hệ thống
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│  Data Sources   │    │   Backend API    │    │   Frontend Web  │
-│                 │    │                  │    │                 │
-│ • OpenStreetMap │───▶│ • NestJS API     │───▶│ • React + TS    │
-│ • Wikidata      │    │ • SPARQL Engine  │    │ • Leaflet Maps  │
-│ • RDF/Turtle    │    │ • Fuseki Server  │    │ • Interactive UI│
-└─────────────────┘    └──────────────────┘    └─────────────────┘
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│  Data Sources   │     │   Backend API    │     │   Frontend Web  │
+│_________________│───▶ ___________________ ───▶ _________________│
+│ • OpenStreetMap │     │ • NestJS API     │     │ • React + TS    │
+│ • Wikidata      │     │ • SPARQL Engine  │     │ • Leaflet Maps  │
+│ • RDF/Turtle    │     │ • Fuseki Server  │     │ • Interactive UI│
+└─────────────────┘     └──────────────────┘     └─────────────────┘
+                                   │
+                                   ▼
+                        ┌──────────────────┐
+                        │  Fuseki Storage  │
+                        │ ________________ │
+                        │ 03.77.246.176    │
+                        │ :3030/           │
+                        │ • RDF Database   │
+                        │ • SPARQL Query   │
+                        └──────────────────┘
 ```
+
+**🗄️ Lưu trữ dữ liệu**: Dữ liệu sau khi thu thập và xử lý sẽ được lưu trữ tại **Apache Jena Fuseki Server** với địa chỉ `03.77.246.176:3030/`. Hệ thống thực hiện truy xuất dữ liệu từ Fuseki thông qua SPARQL queries để hiển thị lên bản đồ tương tác.
 
 ## 🔧 Các thành phần chính
 
@@ -37,9 +50,10 @@ Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ
 
 ### ⚙️ [open_data_backend](https://github.com/MFitHou/open_data_backend) - API & SPARQL Service
 - 🚀 **REST API**: NestJS framework với TypeScript
-- 🔗 **SPARQL Endpoint**: Tích hợp Apache Jena Fuseki
-- 🌐 **Data Management**: Quản lý và phục vụ dữ liệu RDF
-- 🔌 **Integration**: Cung cấp API cho frontend và ứng dụng khác
+- 🔗 **SPARQL Endpoint**: Tích hợp Apache Jena Fuseki tại `03.77.246.176:3030/`
+- 🗄️ **Data Storage**: Lưu trữ và truy xuất dữ liệu RDF từ Fuseki server
+- 🌐 **Data Management**: Quản lý và phục vụ dữ liệu RDF cho frontend
+- 🔌 **Integration**: Cung cấp API cầu nối giữa Fuseki và ứng dụng bản đồ
 
 ### 🗺️ [open_data_map](https://github.com/MFitHou/open_data_map) - Interactive Web Map
 - 🎨 **Modern UI**: React 19 + TypeScript + Vite
@@ -77,6 +91,7 @@ cd open_data_backend
 npm install
 npm run start:dev
 # Server chạy tại: http://localhost:3000
+# Kết nối với Fuseki server: 03.77.246.176:3030/
 ```
 
 ### 3️⃣ Chạy Frontend (React + Vite)
@@ -112,9 +127,9 @@ jupyter notebook
 
 ### Backend
 - 🚀 **NestJS**: Modern Node.js framework
-- 📊 **Apache Jena Fuseki**: RDF database và SPARQL endpoint
-- 🔍 **SPARQL**: Query language cho RDF data
-- 📡 **REST API**: Chuẩn RESTful cho data access
+- 📊 **Apache Jena Fuseki**: RDF database và SPARQL endpoint (`03.77.246.176:3030/`)
+- 🔍 **SPARQL**: Query language cho RDF data từ Fuseki server
+- 📡 **REST API**: Chuẩn RESTful cho data access và integration
 
 ### Frontend  
 - ⚛️ **React 19**: Latest React với TypeScript
@@ -125,11 +140,16 @@ jupyter notebook
 ## 📊 Dữ liệu
 
 ### Nguồn dữ liệu
-| Nguồn | Mục đích | Format |
-|-------|----------|---------|
-| 🌍 **OpenStreetMap** | Dữ liệu địa lý, POI | GeoJSON → RDF |
-| 🔗 **Wikidata** | Metadata, identifiers | SPARQL → RDF |
-| 📊 **Linked Data** | Semantic relationships | RDF/Turtle |
+| Nguồn | Mục đích | Format | Lưu trữ |
+|-------|----------|---------|---------|
+| 🌍 **OpenStreetMap** | Dữ liệu địa lý, POI | GeoJSON → RDF | Fuseki Server |
+| 🔗 **Wikidata** | Metadata, identifiers | SPARQL → RDF | Fuseki Server |
+| 📊 **Linked Data** | Semantic relationships | RDF/Turtle | `03.77.246.176:3030/` |
+
+### Quy trình dữ liệu
+```
+Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (03.77.246.176:3030/) → API → Bản đồ
+```
 
 ### Loại dữ liệu hiện có
 - 🏧 **ATM** - Máy rút tiền tự động
@@ -139,6 +159,25 @@ jupyter notebook
 - 🚻 **Public Toilets** - Nhà vệ sinh công cộng
 - 🚰 **Drinking Water** - Điểm nước uống
 - 🎮 **Playgrounds** - Sân chơi trẻ em
+
+## 👥 Đội ngũ phát triển
+
+Dự án được phát triển bởi đội ngũ sinh viên đam mê công nghệ và dữ liệu mở:
+
+<div align="center">
+
+| 👨‍💻 **Vũ Hoàng Anh** | 👩‍💻 **Nguyễn Hồng Ánh** | 👨‍💻 **Tống Tâm Xuân** |
+|:---:|:---:|:---:|
+| 📊 **Data Engineer** | 🎨 **Frontend Developer** | 🚀 **Backend Architect** |
+| ⚙️ Fuseki Server Management | *React & UI/UX Specialist* | 🔍 SPARQL Query Optimization |
+| 🔧 API Design & Integration | 🗺️ Interactive Map Features | 📈 Data Processing & ETL |
+|  | ✨ Modern Web Development |  |
+
+</div>
+
+---
+
+> *"Khi đam mê công nghệ kết hợp với tinh thần open source, chúng ta tạo ra những giá trị tuyệt vời cho cộng đồng!"* 🚀
 
 ## 🤝 Đóng góp
 
@@ -155,9 +194,11 @@ Chúng tôi hoan nghênh mọi đóng góp! Xem [CONTRIBUTING.md](CONTRIBUTING.m
 
 Dự án này được phân phối dưới [GNU General Public License v3.0](LICENSE). Xem `LICENSE` để biết chi tiết.
 
-## 🏆 OLP PMNM 2025
+## 🏆 Cuộc thi & Mục tiêu
 
-Dự án được phát triển cho **Olympic Tin học Sinh viên Việt Nam – Phần mềm nguồn mở 2025**.
+**Trước mắt**: Dự án được phát triển để tham gia **Hackathon Phần mềm Tự do Nguồn mở** cấp **Khoa Công nghệ Thông tin - Trường Đại học Mở Hà Nội**.
+
+**Dài hạn**: Hướng tới tham gia **Olympic Tin học Sinh viên Việt Nam – Phần mềm nguồn mở (OLP PMNM 2025)**.
 
 ---
 <div align="center">
