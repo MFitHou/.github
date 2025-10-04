@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 MFitHou - Linked Open Data Platform
+# 🌍 MFitHou - Bản Đồ Tiện Ích Mở Fithou
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=36BCF7FF&center=true&vCenter=true&width=600&lines=Open+Data+Platform;Linked+Data+Solutions;Digital+Transformation" alt="Typing SVG" />
 
@@ -26,11 +26,11 @@
 
 </div>
 
-**MFitHou** là nền tảng **dữ liệu mở liên kết (Linked Open Data)** phục vụ nghiên cứu và chuyển đổi số, được phát triển để tham gia **Hackathon Phần mềm Tự do Nguồn mở** cấp **Khoa Công nghệ Thông tin - Trường Đại học Mở Hà Nội** và tương lai là **Olympic Tin học Sinh viên Việt Nam – Phần mềm nguồn mở (OLP PMNM 2025)**.
+**MFitHou** là nền tảng **dữ liệu mở liên kết (Linked Open Data)** phục vụ nghiên cứu và chuyển đổi số, được phát triển để tham gia **Hackathon Phần mềm Tự do Nguồn mở** cấp **Khoa Công nghệ Thông tin - Trường Đại học Mở Hà Nội** và tương lai là **Olympic Tin học Sinh viên Việt Nam – Phần mềm nguồn mở (OLP PMNM 2025) cấp Khoa** với Bản Đồ Tiện Ích Mở.
 
 ## 📋 Tổng quan dự án
 
-Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ **OpenStreetMap**, **Wikidata** và các nguồn khác, cung cấp API SPARQL và giao diện bản đồ tương tác để khám phá dữ liệu địa lý.
+Hệ thống thu thập, chuẩn hóa và trực quan hóa dữ liệu mở từ **OpenStreetMap**, **Wikidata**, cung cấp API SPARQL và giao diện bản đồ tương tác để khám phá dữ liệu địa lý.
 
 <div align="center">
 
