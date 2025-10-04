@@ -358,21 +358,6 @@ Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (103.7
 
 </div>
 
-## 🤝 Đóng góp
-
-Chúng tôi hoan nghênh mọi đóng góp! Xem [CONTRIBUTING.md](CONTRIBUTING.md) để biết chi tiết.
-
-### Cách đóng góp:
-1. 🍴 Fork repository bạn muốn đóng góp
-2. 🔧 Tạo feature branch (`git checkout -b feature/amazing-feature`)
-3. ✅ Commit changes (`git commit -m 'Add amazing feature'`)
-4. 📤 Push to branch (`git push origin feature/amazing-feature`)  
-5. 🔄 Tạo Pull Request
-
-## 📄 License
-
-Dự án này được phân phối dưới [GNU General Public License v3.0](LICENSE). Xem `LICENSE` để biết chi tiết.
-
 ## 🏆 Cuộc thi & Mục tiêu
 
 **Trước mắt**: Dự án được phát triển để tham gia **Hackathon Phần mềm Tự do Nguồn mở** cấp **Khoa Công nghệ Thông tin - Trường Đại học Mở Hà Nội**.
