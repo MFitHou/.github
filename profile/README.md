@@ -184,11 +184,11 @@ XML và RDF/XML tuân theo chuẩn Linked Data
 
 ---
 
-### 📱 Responsive Design
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" alt="mobile" width="60" height="60" />
+### 🚀 Query SPARQL
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Right.png" alt="query" width="60" height="60" />
 
-**Cross-Platform**  
-Tương thích hoàn hảo mobile và desktop
+**Query SPARQL**  
+Cho phép truy vấn dữ liệu với SPARQL
 
 </td>
 </tr>
