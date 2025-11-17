@@ -378,10 +378,10 @@ Thu thập (OSM/Wikidata) → Xử lý (Python) → RDF/Turtle → Fuseki (103.7
 
 **⭐ Nếu dự án hữu ích, hãy cho chúng tôi một star! ⭐**
 
-<a href="https://mfithou.github.io/open_data_map">
+<a href="https://dataopenmap.hou.edu.vn/">
   <img src="https://img.shields.io/badge/Demo-Live%20Preview-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Demo"/>
 </a>
-<a href="https://github.com/MFitHou/OpenDataFitHou/wiki">
+<a href="https://mfithou.github.io/MFitHou-Documents/">
   <img src="https://img.shields.io/badge/Docs-Documentation-4ECDC4?style=for-the-badge&logo=gitbook&logoColor=white" alt="Docs"/>
 </a>
 <a href="https://github.com/MFitHou/OpenDataFitHou/issues">
