@@ -234,6 +234,12 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 For questions or support, please open an issue on GitHub or contact the development team through the repository.
 
+**Address:**
+- 96 Dinh Cong, Hanoi, Vietnam
+- Building B101, Nguyen Hien Street, Bach Mai Ward, Hanoi City
+
+**Email:** mfithou@gmail.com
+
 ---
 
 **OpenDataMap** - Open Urban Utility Map Platform  

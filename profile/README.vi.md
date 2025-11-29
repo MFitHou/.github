@@ -234,6 +234,12 @@ Dự án này được cấp phép theo Giấy phép Công cộng GNU phiên b�
 
 Nếu có câu hỏi hoặc cần hỗ trợ, vui lòng mở issue trên GitHub hoặc liên hệ với đội ngũ phát triển thông qua repository.
 
+**Địa chỉ:**
+- 96 Định Công, Hà Nội, Việt Nam
+- Nhà B101, phố Nguyễn Hiền, phường Bạch Mai, TP Hà Nội
+
+**Email:** mfithou@gmail.com
+
 ---
 
 **OpenDataMap** - Nền Tảng Bản Đồ Tiện Ích Đô Thị Mở  
